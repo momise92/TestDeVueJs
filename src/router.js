@@ -42,8 +42,8 @@ export default new Router({
     },
     {
       path: "/Cafe1euro",
-      name: "getajax",
-      component: () => import("./views/GetAjax.vue")
+      name: "GetAjax",
+      component: () => import("./views/getAjax.vue")
     }
   ]
 });

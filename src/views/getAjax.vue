@@ -4,7 +4,7 @@
 
 
 <script>
-import getAjax from "@/components/getAjax.vue";
+import getAjax from "../components/getAjax.vue";
 export default {
   components: {
     getAjax
