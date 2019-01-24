@@ -1,16 +1,16 @@
 # Projetvue2
 
-#### Test des Biding Vuejs
+* Test des Biding Vuejs
 
-#### Test des Routes Vuejs
+* Test des Routes Vuejs
 
-#### Création d'une TodoList
+* Création d'une TodoList
 
-#### Test de module Axios pour get vers API CafeParis!!
+* Test de module Axios pour get vers API CafeParis!!
 
-#### Test de module Axios pour get vers API Simplante.cfapps.io!!
+* Test de module Axios pour get vers API Simplante.cfapps.io!!
 
-#### Project setup
+* Project setup
 ```
 npm install
 ```
