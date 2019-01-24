@@ -1,5 +1,11 @@
 # projetvue2
 
+Test des Biding Vuejs
+
+Test des Routes Vuejs
+
+Test de module Axios pour get vers API Simplante!!
+
 ## Project setup
 ```
 npm install
