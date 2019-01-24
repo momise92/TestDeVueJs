@@ -10,7 +10,7 @@
 
 * Test de module Axios pour get vers API Simplante.cfapps.io!!
 
-* Project setup
+### Project setup
 ```
 npm install
 ```
