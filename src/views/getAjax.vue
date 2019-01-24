@@ -1,13 +1,13 @@
 <template>
-  <getajaxvue/>
+  <getAjax/>
 </template>
 
 
 <script>
-import getAjaxVue from "@/components/getAjax.vue";
+import getAjax from "@/components/getAjax.vue";
 export default {
   components: {
-    getAjaxVue
+    getAjax
   }
 };
 </script>
