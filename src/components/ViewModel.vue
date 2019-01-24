@@ -1,10 +1,16 @@
 <template>
   <div class="ViewModel">
     <p>
-      simplantes :
-      <a href="https://simplantes.cfapps.io/" target="_blank" rel="noopener">Simplantes</a>.
+      Pour les Simplantes =>
+      <a
+        href="https://simplantes.cfapps.io/"
+        target="_blank"
+        rel="noopener"
+      >Simplantes</a>.
     </p>
-    <p>{{msg}}</p>
+    <p>Vous avez écrit :{{msg}}</p>
+    <label for="msg">Veuillez écrire quelque chose</label>
+    <br>
     <input type="text" v-model="msg">
   </div>
 </template>
@@ -13,11 +19,15 @@
 export default {
   data() {
     return {
-      msg: "yo mama !"
+      msg: "Hello World !"
     };
   }
 };
 </script>
 
-<style>
+<style lang="scss" scoped>
+.ViewModel {
+  display: block;
+  border: 1px solid rgb(3, 98, 207);
+}
 </style>
