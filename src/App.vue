@@ -5,6 +5,7 @@
       <router-link to="/about">About</router-link>|
       <router-link to="/comprendrevuejs">Comprendre Vue</router-link>|
       <router-link to="/Tp">Tp</router-link>|
+      <router-link to="/cafe1euro">Des cafés à 1euro</router-link>|
       <router-link to="/simplante">Simplantes</router-link>
     </div>
     <router-view/>
