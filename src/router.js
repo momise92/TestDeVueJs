@@ -39,6 +39,11 @@ export default new Router({
       path: "/simplante",
       name: "simplante",
       component: () => import("./views/Simplante.vue")
+    },
+    {
+      path: "/Cafe1euro",
+      name: "getajax",
+      component: () => import("./views/GetAjax.vue")
     }
   ]
 });

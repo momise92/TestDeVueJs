@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <h1>A propos de Moïse</h1>
+    <h1>A propos de Momise</h1>
     <p>Ramenez moi des chaussons au pomme tous les jours !</p>
     <p>Créateur de Simplantes ! depuis 2018</p>
     <ul>
