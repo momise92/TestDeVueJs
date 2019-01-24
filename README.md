@@ -1,4 +1,4 @@
-# Projetvue2
+# Projet VueJs
 
 * Test des Biding Vuejs
 
