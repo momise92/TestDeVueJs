@@ -1,7 +1,7 @@
 <template>
   <div class="get-ajax">
     <h1 class="title">Liste des cafés à un euro</h1>
-    <ul>
+    <ul class="listCafe">
       <li v-for="(cafe,n) in cafes" :key="n">{{cafe.fields.adresse}}</li>
     </ul>
   </div>
@@ -35,13 +35,12 @@ export default {
 };
 </script>
 
-
-
-
-
 <style>
 .get-ajax {
   border-bottom: 2px solid;
   padding: 20px;
+}
+.listCafe{
+  list-style: none;
 }
 </style>

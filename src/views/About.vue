@@ -3,7 +3,7 @@
     <h1>A propos de Momise</h1>
     <p>Ramenez moi des chaussons au pomme tous les jours !</p>
     <p>Créateur de Simplantes ! depuis 2018</p>
-    <ul>
+    <ul class="listSquare">
       <li v-for="(info,n) in squaresInfos" :key="n">
         <Square :author="info.author" :title="info.title" @aLotOfClicks="logClicks($event)"/>
       </li>
@@ -34,5 +34,11 @@ export default {
 </script>
 
 <style>
+.listSquare{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
 </style>
 
